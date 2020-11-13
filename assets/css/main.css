@@ -156,10 +156,14 @@ select,
 textarea {
   -moz-appearance: none;
   -webkit-appearance: none;
-  -ms-appearance: none;
+  -ms-appnce: none;
   appearance: none;
 }
+
 /*skill*/
+#skill {
+  text-align: center;
+}
 i {
   font-size: 50px;
 }
@@ -170,7 +174,6 @@ i {
 
 .skillTitle {
   margin-bottom: 40px;
-  margin-top: 30px;
 }
 
 .skills-icon-description {
@@ -189,7 +192,7 @@ i {
   flex-flow: row;
   width: 600px;
   margin: 0 auto;
-  flex-flow: column;
+  flex-flow: row;
 }
 
 .skill {
